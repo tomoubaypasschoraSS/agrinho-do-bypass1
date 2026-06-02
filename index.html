@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazônia Viva - Doe Mudas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>🌳 Amazônia Viva</h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+                <li><a href="#doacao">Doação</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h2>Ajude a Reflorestar a Amazônia</h2>
+            <p>
+                Sua doação de mudas contribui para recuperar áreas desmatadas,
+                proteger a biodiversidade e combater as mudanças climáticas.
+            </p>
+            <a href="#doacao" class="btn">Quero Doar</a>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <h2>Por que doar?</h2>
+        <p>
+            Milhares de hectares da Amazônia sofrem com o desmatamento todos os anos.
+            Através da doação de mudas nativas, podemos restaurar ecossistemas,
+            proteger animais e recuperar nascentes.
+        </p>
+    </section>
+
+    <section id="impacto" class="section impacto">
+        <h2>Seu Impacto</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🌱 1 Muda</h3>
+                <p>Início da recuperação de áreas degradadas.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌳 10 Mudas</h3>
+                <p>Ajuda a criar pequenos corredores ecológicos.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌿 100 Mudas</h3>
+                <p>Contribui significativamente para o reflorestamento local.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="doacao" class="section">
+        <h2>Faça sua Doação</h2>
+
+        <form id="formDoacao">
+            <input
+                type="text"
+                id="nome"
+                placeholder="Seu nome"
+                required
+            >
+
+            <input
+                type="number"
+                id="quantidade"
+                placeholder="Quantidade de mudas"
+                min="1"
+                required
+            >
+
+            <button type="submit">
+                Registrar Doação
+            </button>
+        </form>
+
+        <div id="mensagem"></div>
+    </section>
+
+    <footer>
+        <p>
+            © 2026 Amazônia Viva - Juntos pela recuperação da floresta.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
